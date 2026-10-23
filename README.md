@@ -14,8 +14,7 @@ Foundations for building LLM-powered agentic systems using LangChain, Google Gem
 
 ---
 
-## Project Structure
-
+```text
 agentic-ai-foundations/
 ├── LangChain/
 │   ├── core_building_blocks.py
@@ -23,6 +22,7 @@ agentic-ai-foundations/
 │   └── .env
 ├── .gitignore
 └── README.md
+```
 
 ---
 
