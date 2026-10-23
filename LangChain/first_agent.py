@@ -40,7 +40,7 @@ load_dotenv(dotenv_path=script_dir / ".env")  # Loads variables like OPENAI_API_
 from langchain.chat_models import init_chat_model
 
 model_name = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-model = init_chat_model(f"openai:{model_name}")
+model = init_chat_model("google_genai:gemini-3.8-flash")
 
 
 # -------------------------------------------------------
